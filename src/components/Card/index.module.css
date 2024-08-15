@@ -1,0 +1,38 @@
+.cards {
+    background: #fff;
+}
+
+h1 {
+    text-align: center;
+}
+
+.cardsContainer {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cardsWrapper {
+    position: relative;
+    margin: 50px 0 45px;
+}
+
+.cardsItems {
+    margin-bottom: 24px;
+}
+
+.cardsItem {
+    display: flex;
+    flex: 1;
+    margin: 0 1rem;
+    border-radius: 10px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .cardsItems {
+        display: flex;
+    }
+}
